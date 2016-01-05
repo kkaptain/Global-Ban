@@ -1,183 +1,185 @@
 <?php
 
-//German translations for Global Ban
+// Global Ban - Now Available in GERMAN!
+// Translated by kkaptain (walkmanguy12 on Steam)
+// Email: kkaptain@intoxicatedservers.com
 
 $lang = array(
 
 	//Nav Bar
-	"bans" => "Bans",
-	"home" => "Home",
-	"allbans" => "All Bans",
-	"activebans" => "Active Bans",
-	"history" => "History",
-	"search" => "Seach",
-	"loggedin" => "Logged in as:",
+	"bans" => "Verbannen",
+	"home" => "Zuhause",
+	"allbans" => "All Verbannte",
+	"activebans" => "Gebannte Benutzer",
+	"history" => "Historie",
+	"search" => "Suche",
+	"loggedin" => "Eingeloggt als:",
 	"admin" => "Admin",
-	"help" => "Wiki/Help",
-	"logout" => "Logout",
+	"help" => "Wiki/Hilfe",
+	"logout" => "Abmelden",
 
 	//Footer
 	"copyright" => "Copyright",
-	"created" => "Created By",
+	"created" => "Hergestellt Von",
 
 	//Common
-	"game" => "Game",
-	"date" => "Date/Time",
+	"game" => "Spiel",
+	"date" => "Datum/Zeit",
 	"name" => "Name",
-	"state" => "State",
+	"state" => "Zustand",
 	"steamid" => "Steam ID",
-	"view" => "View",
-	"reason" => "Reason",
-	"delete" => "Delete",
+	"view" => "Besichten",
+	"reason" => "Grund",
+	"delete" => "Löschen",
 	"communityid" => "Community ID",
 	"email" => "Email",
-	"type" => "Type",
-	"enabled" => "Enabled",
-	"disabled" => "Disabled",
+	"type" => "Typ",
+	"enabled" => "Aktiviert",
+	"disabled" => "Behindert",
 	"number" => "#",
-	"accept" => "Accept",
-	"decline" => "Decline",
+	"accept" => "Annehmen",
+	"decline" => "Ablehnen",
 
 	//Messages
-	"youmustbeloggedin" => "You must be logged in to appeal a ban",
-	"nopermission" => "You do not have permission to appeal this ban",
-	"appealmadebold" => "The appeal has been successfully made!",
-	"appealmade" => "Please wait for an admin to review the appeal.",
-	"appealacceptedbold" => "The appeal has been accepted!",
-	"appealaccepted" => "The player has now been unbanned.",
-	"appealdeclinedbold" => "The appeal has been declined!",
-	"appealdeclined" => "The player will remain banned.",
-	"serverdelete" => "Server has been successfully deleted!",
-	"serveradded" => "Server has been successfully been added!",
-	"installcompletebold" => "The installtion is now complete!",
-	"installcompelte" => "You are now free to use the application.",
+	"youmustbeloggedin" => "Du must angemeldet sein um eine Verbannung zu berufen.",
+	"nopermission" => "Du hast keine berechtigung um dieser Verbannung zu berufen.",
+	"appealmadebold" => "Deine berufung wurde gesendet!",
+	"appealmade" => "Bitte warte fuer ein Administrator für eine Rezension.",
+	"appealacceptedbold" => "Die berufung wurde angenommen!",
+	"appealaccepted" => "Der Spieler wurde erfolgreich entbannt.",
+	"appealdeclinedbold" => "Die berufung wurde abgelehnt!",
+	"appealdeclined" => "Der Spieler bleibt verbannt.",
+	"serverdelete" => "Dieser Server wurde erfolgreich gelöscht!",
+	"serveradded" => "Dieser Server wurde erfolgreich hinzugefügt!",
+	"installcompletebold" => "Die Installation ist jetzt abgeschlossen!",
+	"installcompelte" => "Sie sind jetzt frei Global Ban zu verwenden.",
 
 	//Home
 
 	//Servers
 	"os" => "OS",
 	"vac" => "VAC",
-	"hostname" => "Hostname",
-	"players" => "Players"
-	"map" => "Map",
-	"join" => "Join",
-	"noservers" => "No servers exist",
+	"hostname" => "Host-name",
+	"players" => "Spieler"
+	"map" => "Karte",
+	"join" => "Eintreten",
+	"noservers" => "Keine server vorhanden",
 
 	//Perma Bans
-	"permabans" => "Latest permanent bans",
-	"totalpermabans" => "Total permanent bans:",
-	"nopermabans" => "No current permanent bans",
+	"permabans" => "Neusten permanente Verbannte",
+	"totalpermabans" => "Gesamte permanente bans:",
+	"nopermabans" => "Keine permanente verbannungen vorhanden",
 
 	//Temp Bans
-	"tempbans" => "Latest temp bans",
-	"totaltempbans" => "Total temp bans:",
-	"unbanned" => "Unbanned at",
-	"notempbans" => "No current temp bans",
+	"tempbans" => "Neusten temporäre Verbannungen.",
+	"totaltempbans" => "Gesamte temporäre Verbannungen:",
+	"unbanned" => "Entbannt am",
+	"notempbans" => "Keine temporäre verbannungen vorhanden",
 
 	//Ban Details
-	"bandetails" => "Ban Details",
-	"namebanned" => "Name when banned:",
-	"currentname" => "Current name:",
-	"location" => "Location:",
-	"profile" => "Profile:",
-	"timeofban" => "Time of ban:",
+	"bandetails" => "Verbannung Einzelheiten",
+	"namebanned" => "Name bei Verbannung:",
+	"currentname" => "Jetziger Name:",
+	"location" => "Platz:",
+	"profile" => "Profil:",
+	"timeofban" => "Zeit der Verbannung:",
 	"server" => "Server:",
-	"bannedby" => "Banned by:",
-	"unbantime" => "Unban time:",
-	"unbannedby" => "Unbanned by:",
-	"historyreason" => "User has had %s previous ban(s)",
-	"appealthisban" => "Appeal this ban",
-	"nobanselected" => "No ban selected. Please go back and select a ban.",
+	"bannedby" => "Verbannt von:",
+	"unbantime" => "Un-verbot Zeit:",
+	"unbannedby" => "Un-verbot von:",
+	"historyreason" => "Der Benutzer hat %s vorherige Verbannung(en).",
+	"appealthisban" => "Beruf dieser Verbannung",
+	"nobanselected" => "Keine Verbannung ausgewählt. Please go back and select a ban.",
 
-	"appealhistory" => "Appeal History",
-	"lastupdatedate" => "Last update date",
-	"lastupdatedby" => "Last update by",
+	"appealhistory" => "Berufungsgeschichte",
+	"lastupdatedate" => "Letzte Neufassung datum",
+	"lastupdatedby" => "Letzte Neufassung von",
 
 	//Ban Appeal
-	"banappeal" => "Ban Appeal Form",
-	"unbanreason" => "Why should you be unbanned?:",
-	"banappealbtn" => "Submit Ban Appeal",
+	"banappeal" => "Verbann Berufung Vorlage",
+	"unbanreason" => "Warumm sollten du entbannt werden?:",
+	"banappealbtn" => "Verbann Berufung Einreichen",
 
 	//All Bans
-	"noallbans" => "No bans exist",
+	"noallbans" => "Keine Verbannte vorhanden",
 
 	//Active bans
-	"noactivebans" => "No active bans",
+	"noactivebans" => "Keine aktive Verbannungen",
 
 	//History
-	"nohistorybans" => "No history of bans",
+	"nohistorybans" => "Keine Verbannung Geschichte",
 
 	//Search
-	"searchuser" => "Search for a user",
-	"entersteamid" => "Enter Steam ID...",
-	"search" => "Search",
+	"searchuser" => "Suche nach einem Benutzer",
+	"entersteamid" => "Steam ID Eingeben...",
+	"search" => "Durchsuche",
 
 	//Admin Pages
-	"adminhome" => "Admin Home",
-	"appeals" => "Appeals",
-	"banplayer" => "Ban a player",
-	"blockplayer" => "Block a player",
-	"manageservers" => "Manage Servers",
-	"manageadmins" => "Manage Admins",
-	"settings" => "Settings",
+	"adminhome" => "Administrator Zuhause",
+	"appeals" => "Berufunge",
+	"banplayer" => "Verbann ein Spieler",
+	"blockplayer" => "Block einen Spieler",
+	"manageservers" => "Verwalte Servers",
+	"manageadmins" => "Verwalte Admins",
+	"settings" => "Einstellungen",
 	"wiki" => "Wiki",
 
 	//Admin Home
-	"welcome" => "Welcome,",
-	"statistics" => "Statistics",
-	"pendingappeals" => "Pending Appeals:",
-	"acceptedappeals" => "Accepted Appeals:",
-	"declinedappeals" => "Declined Appeals:",
-	"adminpermabans" => "Permament Bans:",
-	"admintempbans" => "Temp Bans:",
-	"admintotalbans" => "Total Bans:",
+	"welcome" => "Wilkommen,",
+	"statistics" => "Statistiken",
+	"pendingappeals" => "Anhängige Berufunge:",
+	"acceptedappeals" => "Akzeptierte Berufunge:",
+	"declinedappeals" => "Abgelehnte Berufunge:",
+	"adminpermabans" => "Permamente Verbannungen:",
+	"admintempbans" => "Temporäre Verbannungen:",
+	"admintotalbans" => "Gesamte Verbannungen:",
 
 	//Appeals
-	"pendingbanappeals" => "Pending Ban Appeals",
+	"pendingbanappeals" => "Anhängige Verbann Berufunge",
 	"status" => "Status",
-	"datedecision" => "Date/Time of decision",
+	"datedecision" => "Datum/Zeit der Entscheidung",
 
-	"historyofappeals" => "History of ban appeals",
-	"dateofappeal" = "Date/Time of appeal",
+	"historyofappeals" => "Verbannung Geschichte",
+	"dateofappeal" = "Datum/Zeit der Berufung",
 
-	"banappealmessage" => "ban appeal",
-	"banid" => "Ban ID",
-	"vacbans" => "Number of VAC bans",
+	"banappealmessage" => "Verbann Berufung",
+	"banid" => "Verbann ID",
+	"vacbans" => "Nummer von VAC Verbannungen",
 
 	//Ban a player
-	"banlength" => "Ban Length (0 for permanent):",
-	"banplayerbtn" => "Ban Player",
+	"banlength" => "Verbann Länge (0 für permanent):",
+	"banplayerbtn" => "Verbann Spieler",
 
 	//Block a user
-	"blockmessage" => "Prevent a user from being able to make ban appeals.",
-	"blockuserbtn" => "Block User",
-	"noblockusers" => "No Blocked Users",
+	"blockmessage" => "Behindere ein benutzer um eine Berufung zu erstellen.",
+	"blockuserbtn" => "Block Benutzer",
+	"noblockusers" => "Keine Geblockte Benutzer",
 
 	//Manage Servers
 	"serverid" => "Server ID",
 	"host" => "Host",
-	"addserver" => "Add a new server",
-	"exampleserverid" => "Example: ttt, darkrp, deathrun, bhop, etc",
-	"examplehost" => "Example: 127.0.0.1:27015",
-	"addserverbtn" => "Add Server",
+	"addserver" => "Server hinzufügen",
+	"exampleserverid" => "Beispiel: ttt, darkrp, deathrun, bhop, etc",
+	"examplehost" => "Beispiel: 127.0.0.1:27015",
+	"addserverbtn" => "Server hinzufügen",
 
 	//Manage admins
 	"adminsuperadmin" => "Admin/Super Admin",
-	"addnewadmin" => "Add a new admin",
-	"emailoptional" => "Email (Optional)",
+	"addnewadmin" => "Neuer Admin hinzufügen",
+	"emailoptional" => "Email (Wahlfrei)",
 
 	//Settings
-	"generalsettings" => "General Settings",
+	"generalsettings" => "Allgemeine Einstellungen",
 	"websitename" => "Website name:",
 	"websitelink" => "Website link:",
-	"changelogo" => "Change logo:",
-	"navbackgroundcolor" => "Navigation bar background colour:",
-	"navtextcolour" => "Navigation bar text colour:",
-	"updateinformation" => "Update information",
+	"changelogo" => "Änderung das logo:",
+	"navbackgroundcolor" => "Navigationsleiste Hintergrundfarbe:",
+	"navtextcolour" => "Navigationsleiste Textfarbe:",
+	"updateinformation" => "Neufassung Information",
 
-	"emailsettings" => "Email Settings",
-	"enableemails" => "Enable email support:",
-	"emailtype" => "Email type:",
+	"emailsettings" => "Email Einstellungen",
+	"enableemails" => "Aktiviere E-Mail Unterstützung:",
+	"emailtype" => "Email typ:",
 	"smtphostname" => "SMTP Hostname:",
 	"smtpexample" => "E.g. smtp@example.com",
 	"port" => "Port:",
@@ -185,7 +187,7 @@ $lang = array(
 	"username" => "Username:",
 	"password" => "Password:",
 	"smtptype" => "SMTP type",
-	"emailaddrees" => "Email addrees:",
-	"emailfrom" => "Email from:",
+	"emailaddrees" => "Email Adresse:",
+	"emailfrom" => "Email von:",
 	);
 ?>
